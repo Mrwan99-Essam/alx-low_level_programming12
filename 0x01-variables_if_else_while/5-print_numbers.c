@@ -3,13 +3,21 @@
 /**
  * main - entry point
  *
- * Description:
+ * Description: prints all single digit numbers
  *
  * Return: Always 0 (success)
 */
 
 int main(void)
 {
-	for (a = 0 ; a%2 != 0 ; a++)
-		printf(
+	int digit = 0;
+
+	while (digit <= 9)
+	{
+		printf("%i", digit);
+		digit++;
+	}
+	printf('\n');
+
+	return (0);
 }
