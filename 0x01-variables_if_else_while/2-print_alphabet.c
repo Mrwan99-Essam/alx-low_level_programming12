@@ -14,7 +14,7 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		putcher(ch);
+		putchar(ch);
 		ch++;
 	}
 	putcher('\n';
