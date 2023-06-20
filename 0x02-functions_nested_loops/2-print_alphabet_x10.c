@@ -15,5 +15,5 @@ void print_alphabet_x10(void)
 	for (c = 0 ; c < 10 ; c++)
 		for (ch = 'a'; ch <= 'z'; ch++)
 			_putchar(ch);
-	printf('\n');
+	printf("\n");
 }
