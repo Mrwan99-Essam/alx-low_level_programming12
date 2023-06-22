@@ -8,7 +8,7 @@
 
 void print_numbers(void)
 {
-	int a
+	int a = 0;
 
 	do {
 		_putchar(a + 48);
