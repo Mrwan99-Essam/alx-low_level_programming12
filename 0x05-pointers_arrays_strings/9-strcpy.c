@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * *_strcpy - copies the string poointers to by src
