@@ -28,3 +28,4 @@ int check_prime(int n, int othrn)
 		return (0);
 	else
 		return (check_prime(n, othrn + 1));
+}
