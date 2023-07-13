@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 	char *ptr = s;
 
 	while (n--)
-		*s++;
+		*s++ = b;
 	return (ptr);
 }
 
