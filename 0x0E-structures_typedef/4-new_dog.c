@@ -15,14 +15,17 @@ int _strlen(const char *str)
 
 	while (*str++)
 		length++;
-	return(length);
+
+	return (length);
 }
 
 /**
- * _strcopy - a function that return @dest with a copy of a string  from @src
+ * *_strcopy - a function that return @dest with a copy of a string  from @src
  *
  * @src: string is copy
  * @dest: copy string to here
+ *
+ * Return: @dest
 */
 
 char *_strcopy(char *dest, char *src)
